@@ -9,6 +9,7 @@ Current status
 * Reading articles
 * Add article
 * Preferences
+* Offine mode
 
 Nearly done
 ----
@@ -16,7 +17,6 @@ Nearly done
 
 Has to be done before release
 ----
-* Offine mode
 * Localization
 
 
