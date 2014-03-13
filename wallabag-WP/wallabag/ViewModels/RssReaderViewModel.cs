@@ -40,21 +40,30 @@ namespace RssReader
             }
 
             var token = "0";
-            if (IsolatedStorageSettings.ApplicationSettings.Contains("userID"))
+            if (IsolatedStorageSettings.ApplicationSettings.Contains("token"))
             {
                 token = (string)IsolatedStorageSettings.ApplicationSettings["token"];
+            }
+            var wallabagURL = "";
+            if (IsolatedStorageSettings.ApplicationSettings.Contains("wallabag"))
+            {
+                wallabagURL = (string)IsolatedStorageSettings.ApplicationSettings["wallabag"];
+            }
+            if (IsolatedStorageSettings.ApplicationSettings.Contains("framabaguser"))
+            {
+                wallabagURL = "https://www.framabag.org/u/" + (string)IsolatedStorageSettings.ApplicationSettings["framabaguser"] + "/";
             }
 
             Feeds = new ObservableCollection<FeedViewModel>() {
                new FeedViewModel() { FeedName = "Wallabag - Unread Items",
                    ParentModel = this,
-                   FeedUrl = "http://tcit.fr/wallabag-dev/?feed&type=home&user_id="+userID+"&token="+token},
+                   FeedUrl = wallabagURL+"?feed&type=home&user_id="+userID+"&token="+token},
                 new FeedViewModel() { FeedName = "Wallabag - Favorites Items",
                  ParentModel = this,
-                   FeedUrl = "http://tcit.fr/wallabag-dev/?feed&type=fav&user_id="+userID+"&token="+token},
+                   FeedUrl = wallabagURL+"?feed&type=fav&user_id="+userID+"&token="+token},
                 new FeedViewModel() { FeedName = "Wallabag - Archive Items",
                  ParentModel = this,
-                   FeedUrl = "http://tcit.fr/wallabag-dev/?feed&type=archive&user_id="+userID+"&token="+token},
+                   FeedUrl = wallabagURL+"?feed&type=archive&user_id="+userID+"&token="+token},
             };
         }
 

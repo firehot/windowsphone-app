@@ -1,21 +1,21 @@
-﻿<xapCache source="E:\Users\Thomas Citharel\Documents\GitHub\RSS Sample\wallabag\Bin\Release\wallabag.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="13/03/2014 01:43:31">
-  <file source="E:\Users\Thomas Citharel\Documents\GitHub\RSS Sample\wallabag\Bin\Release\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="13/03/2014 01:37:44" />
-  <file source="E:\Users\Thomas Citharel\Documents\GitHub\RSS Sample\wallabag\wallabag.png" archivePath="wallabag.png" lastWriteTime="27/02/2014 16:22:44" />
-  <file source="E:\Users\Thomas Citharel\Documents\GitHub\RSS Sample\wallabag\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="13/03/2014 00:37:30" />
-  <file source="E:\Users\Thomas Citharel\Documents\GitHub\RSS Sample\wallabag\obj\Release\wallabag.dll" archivePath="wallabag.dll" lastWriteTime="13/03/2014 01:43:31" />
+﻿<xapCache source="C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\Bin\Release\wallabag.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="13/03/2014 10:20:18">
+  <file source="C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\Bin\Release\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="13/03/2014 01:37:44" />
+  <file source="C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\wallabag.png" archivePath="wallabag.png" lastWriteTime="27/02/2014 16:22:44" />
+  <file source="C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="13/03/2014 00:37:30" />
+  <file source="C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\obj\Release\wallabag.dll" archivePath="wallabag.dll" lastWriteTime="13/03/2014 10:20:17" />
   <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v7.1\Libraries\Silverlight\Microsoft.Phone.Controls.dll" archivePath="Microsoft.Phone.Controls.dll" lastWriteTime="29/08/2011 23:49:08" />
-  <file source="E:\Users\Thomas Citharel\Documents\GitHub\RSS Sample\wallabag\add.png" archivePath="add.png" lastWriteTime="01/03/2014 18:40:47" />
-  <file source="E:\Users\Thomas Citharel\Documents\GitHub\RSS Sample\wallabag\back.png" archivePath="back.png" lastWriteTime="14/01/2014 02:18:10" />
-  <file source="E:\Users\Thomas Citharel\Documents\GitHub\RSS Sample\wallabag\Background.png" archivePath="Background.png" lastWriteTime="14/01/2014 02:18:10" />
-  <file source="E:\Users\Thomas Citharel\Documents\GitHub\RSS Sample\wallabag\favourite.png" archivePath="favourite.png" lastWriteTime="14/01/2014 02:18:10" />
-  <file source="E:\Users\Thomas Citharel\Documents\GitHub\RSS Sample\wallabag\forward.png" archivePath="forward.png" lastWriteTime="14/01/2014 02:18:10" />
-  <file source="E:\Users\Thomas Citharel\Documents\GitHub\RSS Sample\wallabag\refresh.png" archivePath="refresh.png" lastWriteTime="12/03/2014 23:47:18" />
-  <file source="E:\Users\Thomas Citharel\Documents\GitHub\RSS Sample\wallabag\rss.png" archivePath="rss.png" lastWriteTime="14/01/2014 02:18:10" />
-  <file source="E:\Users\Thomas Citharel\Documents\GitHub\RSS Sample\wallabag\todo.txt" archivePath="todo.txt" lastWriteTime="01/03/2014 19:18:32" />
-  <file source="E:\Users\Thomas Citharel\Documents\GitHub\RSS Sample\wallabag\Bin\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="13/03/2014 01:26:59" />
-  <file source="E:\Users\Thomas Citharel\Documents\GitHub\RSS Sample\wallabag\Bin\Release\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="13/03/2014 00:37:30" />
-  <file source="E:\Users\Thomas Citharel\Documents\GitHub\RSS Sample\wallabag\Bin\Release\back.png" archivePath="back.png" lastWriteTime="14/01/2014 02:18:10" />
-  <file source="E:\Users\Thomas Citharel\Documents\GitHub\RSS Sample\wallabag\Bin\Release\Background.png" archivePath="Background.png" lastWriteTime="14/01/2014 02:18:10" />
-  <file source="E:\Users\Thomas Citharel\Documents\GitHub\RSS Sample\wallabag\Bin\Release\forward.png" archivePath="forward.png" lastWriteTime="14/01/2014 02:18:10" />
-  <file source="E:\Users\Thomas Citharel\Documents\GitHub\RSS Sample\wallabag\Bin\Release\rss.png" archivePath="rss.png" lastWriteTime="14/01/2014 02:18:10" />
+  <file source="C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\add.png" archivePath="add.png" lastWriteTime="01/03/2014 18:40:47" />
+  <file source="C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\back.png" archivePath="back.png" lastWriteTime="14/01/2014 02:18:10" />
+  <file source="C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\Background.png" archivePath="Background.png" lastWriteTime="14/01/2014 02:18:10" />
+  <file source="C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\favourite.png" archivePath="favourite.png" lastWriteTime="14/01/2014 02:18:10" />
+  <file source="C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\forward.png" archivePath="forward.png" lastWriteTime="14/01/2014 02:18:10" />
+  <file source="C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\refresh.png" archivePath="refresh.png" lastWriteTime="12/03/2014 23:47:18" />
+  <file source="C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\rss.png" archivePath="rss.png" lastWriteTime="14/01/2014 02:18:10" />
+  <file source="C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\todo.txt" archivePath="todo.txt" lastWriteTime="01/03/2014 19:18:32" />
+  <file source="C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\Bin\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="13/03/2014 01:26:59" />
+  <file source="C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\Bin\Release\ApplicationIcon.png" archivePath="ApplicationIcon.png" lastWriteTime="13/03/2014 00:37:30" />
+  <file source="C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\Bin\Release\back.png" archivePath="back.png" lastWriteTime="14/01/2014 02:18:10" />
+  <file source="C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\Bin\Release\Background.png" archivePath="Background.png" lastWriteTime="14/01/2014 02:18:10" />
+  <file source="C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\Bin\Release\forward.png" archivePath="forward.png" lastWriteTime="14/01/2014 02:18:10" />
+  <file source="C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\Bin\Release\rss.png" archivePath="rss.png" lastWriteTime="14/01/2014 02:18:10" />
 </xapCache>

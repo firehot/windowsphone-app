@@ -21,3 +21,27 @@ E:\Users\Thomas Citharel\Documents\GitHub\RSS Sample\wallabag\obj\Release\wallab
 E:\Users\Thomas Citharel\Documents\GitHub\RSS Sample\wallabag\obj\Release\wallabag.dll
 E:\Users\Thomas Citharel\Documents\GitHub\RSS Sample\wallabag\obj\Release\wallabag.pdb
 E:\Users\Thomas Citharel\Documents\GitHub\RSS Sample\wallabag\obj\Release\XapCacheFile.xml
+C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\Bin\Release\ApplicationIcon.png
+C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\Bin\Release\back.png
+C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\Bin\Release\Background.png
+C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\Bin\Release\forward.png
+C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\Bin\Release\rss.png
+C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\Bin\Release\wallabag.dll
+C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\Bin\Release\wallabag.pdb
+C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\Bin\Release\AppManifest.xaml
+C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\Bin\Release\wallabag.xap
+C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\Bin\Release\Microsoft.Phone.Controls.dll
+C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\Bin\Release\Microsoft.Phone.Controls.xml
+C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\obj\Release\wallabag.csprojResolveAssemblyReference.cache
+C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\obj\Release\App.g.i.cs
+C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\obj\Release\addArticle.g.i.cs
+C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\obj\Release\ArrowIndicator.g.i.cs
+C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\obj\Release\FeedItemDetailsPage.g.i.cs
+C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\obj\Release\FeedDetailsPage.g.i.cs
+C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\obj\Release\MainPage.g.i.cs
+C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\obj\Release\configuration.g.i.cs
+C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\obj\Release\preferences.g.i.cs
+C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\obj\Release\wallabag.g.resources
+C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\obj\Release\wallabag.dll
+C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\obj\Release\wallabag.pdb
+C:\Users\Thomas Citharel\Documents\GitHub\windowsphone-app\wallabag-WP\wallabag\obj\Release\XapCacheFile.xml

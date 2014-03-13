@@ -46,6 +46,7 @@
             <TextBox Height="72" HorizontalAlignment="Left" Margin="24,82,0,0" Name="textBox4" Text="" VerticalAlignment="Top" Width="284" Grid.Column="1" GotFocus="textBox4_GotFocus" />
             <TextBlock Height="30" HorizontalAlignment="Left" Margin="15,103,0,0" Name="textBlock6" Text="Your Token : " VerticalAlignment="Top" />
         </Grid>
+        <TextBlock Height="30" HorizontalAlignment="Left" Margin="7,122,0,0" Name="textBlock7" Text="Note : With too many articles, this app may not work" VerticalAlignment="Top" />
     </Grid>
  
     <!--Exemple de code illustrant l'utilisation de l'ApplicationBar-->

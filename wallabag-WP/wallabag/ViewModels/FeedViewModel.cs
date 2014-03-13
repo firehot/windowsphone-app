@@ -131,7 +131,7 @@ namespace RssReader
                 //MessageBox.Show("here");
                 StreamReader reader = new StreamReader(stream);
                 String file = reader.ReadToEnd();
-                //MessageBox.Show(file);
+                MessageBox.Show(file);
                 parse(file);
                 reader.Close();
             }
@@ -155,6 +155,7 @@ namespace RssReader
         {
             WebClient wc = new WebClient();
             wc.DownloadStringCompleted += new DownloadStringCompletedEventHandler(wc_DownloadStringCompleted);
+            //MessageBox.Show(FeedUrl);
             wc.DownloadStringAsync(new Uri(FeedUrl));
 
         }
