@@ -1,7 +1,9 @@
 windowsphone-app
 ================
 
-Current status
+App currently submitted, waiting for news.
+
+Current features
 ----
 
 * RSS implemented
@@ -11,12 +13,10 @@ Current status
 * Preferences
 * Offine mode
 
-Nearly done
-----
-* Share articles
 
-Has to be done before release
+
+Planned :
 ----
 * Localization
-
+* Share articles
 
