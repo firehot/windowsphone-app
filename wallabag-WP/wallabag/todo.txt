@@ -1,0 +1,7 @@
+﻿--> AddArticle : bases on framabag's login to get URL
+---> Shows browser
+
+--> Preferences
+---> Save Token and User ID
+---> Build URL
+---> Save URL

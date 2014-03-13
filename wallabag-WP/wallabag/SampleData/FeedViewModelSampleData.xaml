@@ -1,0 +1,22 @@
+<local:FeedViewModel
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"       
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:RssReader" 
+    FeedName="Test">
+    <local:FeedViewModel.Items>
+        <local:FeedItemViewModel 
+            Description="description1" 
+            Title="Post1" 
+            Read="True"
+            Url="http://www.web.com" />
+        <local:FeedItemViewModel 
+            Description="description2" 
+            Title="Post2"
+            Read="False"
+            Url="http://www.web.com" />
+        <local:FeedItemViewModel 
+            Description="description2" 
+            Title="Post2" 
+            Url="http://www.web.com" />
+     </local:FeedViewModel.Items>  
+</local:FeedViewModel>

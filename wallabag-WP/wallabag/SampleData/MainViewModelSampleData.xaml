@@ -1,0 +1,16 @@
+<local:RssReaderViewModel 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"       
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:RssReader" >
+    <local:RssReaderViewModel.Feeds>
+        <local:FeedViewModel 
+            FeedName="design one" 
+            FeedUrl="Maecenas praesent accumsan bibendum" />
+        <local:FeedViewModel 
+            FeedName="design two" 
+            FeedUrl="Dictumst eleifend facilisi faucibus" />
+        <local:FeedViewModel 
+            FeedName="design three" 
+            FeedUrl="Habitant inceptos interdum lobortis" />
+    </local:RssReaderViewModel.Feeds>
+</local:RssReaderViewModel>
