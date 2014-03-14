@@ -93,9 +93,9 @@
                                             x:Name="nextButton"
                                             Text="Next"
                                             Click="Next_Click"/>
-            <shell:ApplicationBarIconButton IconUri="/favourite.png"
+            <!--<shell:ApplicationBarIconButton IconUri="/favourite.png"
                                             Text="Favourite"
-                                            Click="Favourite_Click"/>    
+                                            Click="Favourite_Click"/>-->
             <!--<shell:ApplicationBar.MenuItems>
                 <shell:ApplicationBarMenuItem Click="SendAsSMS_Click"
                                               Text="Send as SMS"/>

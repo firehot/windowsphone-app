@@ -115,7 +115,7 @@ namespace RssReader
         }
 
 
-        public void LoadFeed(bool askForUpdate)
+        public bool LoadFeed(bool askForUpdate)
         {
             IsolatedStorageSettings settings = IsolatedStorageSettings.ApplicationSettings;
             IsolatedStorageFile store = IsolatedStorageFile.GetUserStoreForApplication();
@@ -123,17 +123,20 @@ namespace RssReader
             if (askForUpdate)
             {
                     this.DownloadFeed();
+                    return true;
             }
             else
             {
                 // offline
                 IsolatedStorageFileStream stream = store.OpenFile("Save" + this._feedName, FileMode.Open);
-                //MessageBox.Show("here");
+                //MessageBox.Show("offline");
                 StreamReader reader = new StreamReader(stream);
                 String file = reader.ReadToEnd();
-                MessageBox.Show(file);
+                //MessageBox.Show(file);
+                //MessageBox.Show("before parsing");
                 parse(file);
                 reader.Close();
+                return true;
             }
         }
 
@@ -169,9 +172,10 @@ namespace RssReader
         }
 
         private void parse(string File){
+            //MessageBox.Show(FeedName);
             //MessageBox.Show(File);
             var rssFeed = XElement.Parse(File);
-            Debug.WriteLine(rssFeed);
+            //Debug.WriteLine(rssFeed);
             Items.Clear();
             var items = from item in rssFeed.Descendants("item")
                         select new FeedItemViewModel()
@@ -185,19 +189,33 @@ namespace RssReader
             
             foreach (var item in items)
             {
-                item.PropertyChanged += (s, e2) => UpdateFeedStatus();
+                //item.PropertyChanged += (s, e2) => UpdateFeedStatus();
                 Items.Add(item);
             }
 
-            ParentModel.UpdateLatestItems();
-            ParentModel.UpdateFavourites();
-            ParentModel.UpdateArchives();
-            UpdateFeedStatus();           
+            var info = rssFeed.Descendants("channel").First();
+            var title = info.Element("title").Value;
+            //MessageBox.Show(title);
+            if (title == "wallabag — home feed")
+            {
+                ParentModel.UpdateLatestItems();
+            }
+            else if (title == "wallabag — fav feed")
+            {
+
+                ParentModel.UpdateFavourites();
+            }
+            else if (title == "wallabag — archive feed")
+            {
+                ParentModel.UpdateArchives();
+            }
+            //UpdateFeedStatus();
+            //MessageBox.Show(Items.Count().ToString());
         }
 
-        private void UpdateFeedStatus()
+        /*private void UpdateFeedStatus()
         {
-            if (!Items.Any(item => item.Read/* || item.Favourite*/))
+            if (!Items.Any(item => item.Read || item.Favourite))
             {
                 Read = false;
                 UnReadItems = Items.Count;
@@ -205,13 +223,13 @@ namespace RssReader
             }
             else
             {
-                int readItems = Items.Where(item => item.Read/* || item.Favourite*/).Count();
+                int readItems = Items.Where(item => item.Read || item.Favourite).Count();
                 UnReadItems = Items.Count - readItems;
                 FeedStatus = string.Format("{0} unread, {1} items", UnReadItems, Items.Count);
 
                 Read = readItems == Items.Count;
             }
-        }
+        }*/
 
         public ObservableCollection<FeedItemViewModel> Items { get; set; }
 

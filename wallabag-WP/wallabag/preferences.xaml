@@ -30,6 +30,8 @@
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <CheckBox Content="Update at Startup" Height="72" HorizontalAlignment="Left" Margin="9,29,0,0" Name="checkBox1" VerticalAlignment="Top" />
             <Button Content="Save" Height="72" HorizontalAlignment="Left" Margin="141,538,0,0" Name="button1" VerticalAlignment="Top" Width="160" Click="button1_Click" />
+            <!--<TextBox Height="72" HorizontalAlignment="Left" Margin="-4,119,0,0" Name="textBox1" Text="30" VerticalAlignment="Top" Width="150" />
+            <TextBlock Height="65" HorizontalAlignment="Left" Margin="141,126,0,0" Name="textBlock1" Text="How much items would you like to see ?" VerticalAlignment="Top" Width="282" TextWrapping="Wrap" Padding="1" />-->
         </Grid>
     </Grid>
  

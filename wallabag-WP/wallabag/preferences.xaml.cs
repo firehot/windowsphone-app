@@ -25,12 +25,20 @@ namespace wallabag
                 checkBox1.IsChecked = (bool)IsolatedStorageSettings.ApplicationSettings["updateAtStartup"];
             }
 
+            /*if (IsolatedStorageSettings.ApplicationSettings.Contains("numItems2Display"))
+            {
+                textBox1.Text = (string)IsolatedStorageSettings.ApplicationSettings["numItems2Display"];
+            }*/
+
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
             // save pref
             IsolatedStorageSettings.ApplicationSettings["updateAtStartup"] = checkBox1.IsChecked;
+
+            //IsolatedStorageSettings.ApplicationSettings["numItems2Display"] = textBox1.Text;
+
             NavigationService.Navigate(new Uri("/MainPage.xaml", UriKind.Relative));
         }
     }

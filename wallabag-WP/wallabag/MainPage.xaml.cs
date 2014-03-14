@@ -40,7 +40,7 @@ namespace RssReader
             {
                 if (IsolatedStorageSettings.ApplicationSettings.Contains("updateAtStartup"))
                 {
-                    if (!(bool)IsolatedStorageSettings.ApplicationSettings["updateAtStartup"] == true)
+                    if ((bool)IsolatedStorageSettings.ApplicationSettings["updateAtStartup"] != true)
                     {
                         update = false;
                     }

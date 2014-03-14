@@ -33,6 +33,7 @@ namespace RssReader
 
         public RssReaderViewModel()
         {
+
             var userID = "1";
             if (IsolatedStorageSettings.ApplicationSettings.Contains("userID"))
             {
@@ -67,14 +68,30 @@ namespace RssReader
             };
         }
 
+        private int getNumItems()
+        {
+            var numItems2Display = "30";
+            var numIntItems2Display = 30;
+            if (IsolatedStorageSettings.ApplicationSettings.Contains("numItems2Display"))
+            {
+                numItems2Display = (string)IsolatedStorageSettings.ApplicationSettings["numItems2Display"];
+                int.TryParse(numItems2Display, out numIntItems2Display);
+            }
+            return numIntItems2Display;
+        }
+
+
         internal void UpdateLatestItems()
         {
+
+            
+
             // update the latest items
             var latest = new ObservableCollection<FeedItemViewModel>();
 
             foreach (var item in Feeds.SelectMany(f => f.Items)
                                     /*.OrderByDescending(i => i.DatePublished)*/
-                                    .Take(30))
+                                    .Take(getNumItems()))
             {
                 if (item.ParentFeed.FeedName == "Wallabag - Unread Items")
                 {
@@ -83,14 +100,15 @@ namespace RssReader
             }
             LatestItems.Clear();
             LatestItems.AddRange(latest);
+            //MessageBox.Show(LatestItems.Count().ToString());
         }
         internal void UpdateFavourites()
         {
             // update the latest items
             var favs = new ObservableCollection<FeedItemViewModel>();
             foreach (var item in Feeds.SelectMany(f => f.Items)
-                                   /*.OrderByDescending(i => i.DatePublished)*/
-                                   .Take(30))
+                                   .OrderByDescending(i => i.DatePublished)
+                                   .Take(getNumItems()))
             {
                 if (item.ParentFeed.FeedName == "Wallabag - Favorites Items")
                 {
@@ -106,8 +124,8 @@ namespace RssReader
             // update the latest items
             var arch = new ObservableCollection<FeedItemViewModel>();
             foreach (var item in Feeds.SelectMany(f => f.Items)
-                                   /*.OrderByDescending(i => i.DatePublished)*/
-                                   .Take(30))
+                                   .OrderByDescending(i => i.DatePublished)
+                                   .Take(getNumItems()))
             {
                 if (item.ParentFeed.FeedName == "Wallabag - Archive Items")
                 {
