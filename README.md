@@ -6,7 +6,7 @@ Please take the code (or not) and make something better
 
 --------------
 
-App currently submitted, waiting for news.
+App on the [Windows Store](http://www.windowsphone.com/en-us/store/app/wallabag/ff890514-348c-4d0b-9b43-153fff3f7450).
 
 Current features
 ----
