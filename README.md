@@ -2,7 +2,8 @@ windowsphone-app
 ================
 
 ## NOTE : The app is no longer maintained ! 
-Please take the code (or not) and make something better
+Look at https://github.com/wallabag/windows-app for a Windows Phone 8 and Windows 8 app.
+This can still be used for Windows Phone 7 devices (if there are any...).
 
 --------------
 
